@@ -34,5 +34,5 @@ const nameInputAndBGChanger = function () {
   // This sets the display background css property of the mainPage to "flex" the mainPage visible by changing its display style on the CSS property of mainPage
   mainPage.style.backgroun = "flex";
 };
-
+// ADDED nameInputAndBGChanger FUNCTION TO SUBMIT BUTTON
 submit.addEventListener("submit", nameInputAndBGChanger);
