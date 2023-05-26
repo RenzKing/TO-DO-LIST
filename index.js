@@ -25,6 +25,7 @@ submit.addEventListener("submit", function () {
 
     // This checks if the name is true or it contains a non-empty value so that if it is true it will run the following block of code
         if(userName) {
-        
+    // this line gets the value or typed in the name variable
+    userInput.innterText = name;        
     }
 })
