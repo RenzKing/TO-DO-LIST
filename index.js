@@ -19,7 +19,8 @@ const exit = document.querySelector("#exit");
 
 let toDoList = [];
 
-submit.addEventListener("submit", function () {
+// CREATED A FUNCTION THAT HANDLES THE NAME INPUT AND BG STYLE AFTER SUBMITTING NAME
+const nameInputAndBGChanger = function () {
   // Create a variable that store the name typed in the input element
   const name = nameInput.value.trim();
 
@@ -32,4 +33,6 @@ submit.addEventListener("submit", function () {
   }
   // This sets the display background css property of the mainPage to "flex" the mainPage visible by changing its display style on the CSS property of mainPage
   mainPage.style.backgroun = "flex";
-});
+};
+
+submit.addEventListener("submit", nameInputAndBGChanger);
