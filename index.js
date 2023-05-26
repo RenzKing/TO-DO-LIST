@@ -19,6 +19,10 @@ const exit = document.querySelector("#exit");
 
 let toDoList = [];
 
-submit.addEventListener("click", function () {
-    const 
+submit.addEventListener("submit", function () {
+    // Get userName value or get what the user typed in with trim method
+    const name = nameInput.value.trim()
+    if(userName) {
+        
+    }
 })
