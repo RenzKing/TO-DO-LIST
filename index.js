@@ -27,7 +27,9 @@ submit.addEventListener("submit", function () {
   if (userName) {
     // this line gets the value or the typed in text in the name variable
     userInput.innterText = name;
-    // This sets the display background css property of the landing page to "none"
+    // This sets the display background css property of the landingPage to "none"
     landingPage.style.background = "none";
   }
+  // This sets the display background css property of the mainPage to "flex" the mainPage visible by changing its display style on the CSS property of mainPage
+  mainPage.style.backgroun = "flex";
 });
