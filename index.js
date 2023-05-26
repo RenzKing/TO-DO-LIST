@@ -18,3 +18,7 @@ const removeItem = document.querySelector("#remove-item");
 const exit = document.querySelector("#exit");
 
 let toDoList = [];
+
+submit.addEventListener("click", function () {
+    const 
+})
