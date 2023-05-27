@@ -40,3 +40,5 @@ const addTask = function () {
 };
 // ADDED addTask FUNCTION TO ADDITEM BUTTON
 addItem.addEventListener("submit", addTask());
+
+// CREATED A removeItem FUNCTION TO REMOVE ITEM BUTTON
