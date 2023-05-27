@@ -6,6 +6,7 @@ const submit = document.querySelector("#submit");
 const mainPage = document.querySelector(".main-page");
 const itemInput = document.querySelector("#item-input");
 const userName = document.querySelector("#user-name");
+const list = document.querySelector("ul");
 const addItem = document.querySelector("#add-item");
 const removeItem = document.querySelector("#remove-item");
 const exit = document.querySelector("#exit");
@@ -51,3 +52,5 @@ const erase = function () {
 };
 
 removeItem.addEventListener("click", erase());
+
+// CREATED A FUNCTION THAT RENDERS THE list
