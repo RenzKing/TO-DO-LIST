@@ -42,3 +42,12 @@ const addTask = function () {
 addItem.addEventListener("submit", addTask());
 
 // CREATED A removeItem FUNCTION TO REMOVE ITEM BUTTON
+
+const erase = function () {
+  // Created a variable that splices or removes the clicked to do list item.
+  const del = removeItem.splice(i, 1);
+  // Invoke the erase function to update the list visually
+  erase();
+};
+
+removeItem.addEventListener("click", erase());
