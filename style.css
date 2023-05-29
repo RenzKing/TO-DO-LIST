@@ -2,3 +2,15 @@
   margin: auto;
   padding: auto;
 }
+
+body{
+  margin: 5px;
+}
+
+.landingPage{
+  background-color: rgb(238, 231, 16);
+}
+
+.mainPage{
+  background-color: rgb(9, 226, 190);
+}
