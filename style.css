@@ -2,15 +2,16 @@
   margin: auto;
   padding: auto;
 }
-
-body{
-  margin: 5px;
+.todo {
+  height: 100vh;
+  background-color: burlywood;
 }
-
-.landingPage{
-  background-color: rgb(238, 231, 16);
+h1 {
+  text-align: center;
 }
-
-.mainPage{
-  background-color: rgb(9, 226, 190);
+form {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background-color: red;
 }
