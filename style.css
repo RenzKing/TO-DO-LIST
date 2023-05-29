@@ -14,6 +14,7 @@ form {
   margin-top: 20px;
 }
 h1 {
+  padding-top: 20px;
   text-align: center;
 }
 form {
@@ -21,6 +22,7 @@ form {
   justify-content: center;
   text-align: center;
   background-color: rgb(17, 13, 104);
+  color: #fff;
 }
 input {
   margin-top: 12%;
