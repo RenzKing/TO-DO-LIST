@@ -63,3 +63,12 @@ newLi.appendChild(removeItem);
 list.appendChild(newLi);
 // ADDED render FUNCTION TO removeItem BUTTON
 removeItem.addEventListener("click", render());
+
+
+// CREATE A FUNCTION THAT WILL EXIT OR RETURN TO THE LANDING PAGE
+
+const quit = function () {
+
+}
+
+exit.addEventListener("click",quit)
