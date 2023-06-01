@@ -1,0 +1,10 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+
+.todo {
+  background-color: rgb(255, 255, 255);
+  border: 2px black solid;
+  text-align: center;
+}
