@@ -31,7 +31,7 @@ let task = [];
 // CREATE A FUNCTION THAT WILL DELETE A SPECIFIC TASK
 
 const remove = (e) => {
-  const del = e.target.newLI;
+  const del = e.target.parentElement;
   list.removeChild(del);
 };
 
@@ -52,7 +52,7 @@ const todo = () => {
   deleter.style.background = "red";
   deleter.style.marginLeft = "20px";
   newLi.appendChild(deleter);
-  deleter.addEventlistener("click", remove);
+  deleter.addEventListener("click", remove);
 };
 
 submitBtn.addEventListener("click", todo);
