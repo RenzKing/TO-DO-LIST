@@ -31,7 +31,7 @@ let task = [];
 // CREATE A FUNCTION THAT WILL DELETE A SPECIFIC TASK
 
 const remove = (e) => {
-  const del = e.target.text;
+  const del = e.target.newLI;
   list.removeChild(del);
 };
 
@@ -47,7 +47,6 @@ const todo = () => {
   newLi.appendChild(text);
   list.appendChild(newLi);
   userInput.value = "";
-
   const deleter = document.createElement("button");
   deleter.textContent = "Remove";
   deleter.style.background = "red";
