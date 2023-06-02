@@ -27,8 +27,21 @@
 const userInput = document.querySelector("#userInput");
 const submitBtn = document.querySelector("#submitBtn");
 const list = document.querySelector("#list");
+const btn = document.createElement("button");
+
 let task = [];
 // CREATE A FUNCTION THAT WILL DELETE A SPECIFIC TASK
+
+const randomColor = () => {
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  return `rgb(${r},${g},${b})`;
+};
+
+const colorizer = () => {
+  btn.style.background = randomColor();
+};
 
 const remove = (e) => {
   const del = e.target.parentElement;
@@ -54,5 +67,11 @@ const todo = () => {
   newLi.appendChild(deleter);
   deleter.addEventListener("click", remove);
 };
-
+const body = document.querySelector("body");
+btn.style.background = "blue";
+btn.style.height = "100px";
+btn.style.width = "100px";
+body.appendChild(btn);
 submitBtn.addEventListener("click", todo);
+
+btn.addEventListener("click", colorizer);
