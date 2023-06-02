@@ -29,6 +29,10 @@ const submitBtn = document.querySelector("#submitBtn");
 const list = document.querySelector("#list");
 const btn = document.createElement("button");
 btn.classList.add("butones");
+btn.innerText = "Click me to change color";
+btn.style.color = "white";
+btn.style.alignItems = "center";
+
 let task = [];
 // CREATE A FUNCTION THAT WILL DELETE A SPECIFIC TASK
 
